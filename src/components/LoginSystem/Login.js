@@ -27,7 +27,7 @@ class Login extends Component {
     return (
       <div className="container">
         <Link to="/home">
-          <button className="btn grey-text white">Back to Home Page</button>
+          <button className="btn white-text grey">Back to Home Page</button>
         </Link>
         <h1>Login Form</h1>
         <form action="/sucess" className="form">
@@ -46,7 +46,7 @@ class Login extends Component {
             </div>
           </div>
           <div className="row">
-            <button className="btn white grey-text waves-block waves-effect">
+            <button className="btn white-text grey waves-block waves-effect">
               Login
             </button>
           </div>

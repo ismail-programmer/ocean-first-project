@@ -7,18 +7,18 @@ class Home extends Component {
     return (
       <div className="container center">
         <div className="row ">
-          <div className="col s6">
+          <div className="col s12">
             <div className="App">
               <h1>Ocean Academy</h1>
               <h4>Welcome to Our academy!</h4>
               <div className="col s6">
                 <Link to="/Signup">
-                  <button className="btn grey-text white">Please Signup</button>
+                  <button className="white-text grey btn">Please Signup</button>
                 </Link>
               </div>
               <div className="col s6">
                 <Link to="/login">
-                  <button className="btn grey-text white">Please Login</button>
+                  <button className="btn white-text grey">Please Login</button>
                 </Link>
               </div>
             </div>

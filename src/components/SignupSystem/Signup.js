@@ -73,10 +73,11 @@ class Signup extends Component {
   }
   render() {
     return (
+      <div className="container">
       <div className="row">
         <div className="col s6">
           <Link to="/home">
-            <button className="btn grey-text white">Back to Home Page</button>
+            <button className="btn white-text grey">Back to Home Page</button>
           </Link>
           <h2>Signup</h2>
           <form action="/login">
@@ -95,9 +96,10 @@ class Signup extends Component {
             <label htmlFor="confirmPassword">Confirm Password</label>
             <p ref="chkConfirmPass"></p>
 
-            <button className="btn grey-text white">Register</button>
+            <button className="btn white-text grey">Register</button>
           </form>
         </div>
+      </div>
       </div>
     );
   }
